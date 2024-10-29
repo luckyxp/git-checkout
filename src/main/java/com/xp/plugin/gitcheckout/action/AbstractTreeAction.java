@@ -1,11 +1,11 @@
-package com.xp.gitcheckout.action;
+package com.xp.plugin.gitcheckout.action;
 
 import com.intellij.openapi.actionSystem.ActionUpdateThread;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
-import com.xp.gitcheckout.BranchTree;
-import com.xp.gitcheckout.settings.GitCheckoutSettings;
-import com.xp.gitcheckout.settings.GitCheckoutState;
+import com.xp.plugin.gitcheckout.BranchTree;
+import com.xp.plugin.gitcheckout.settings.GitCheckoutSettings;
+import com.xp.plugin.gitcheckout.settings.GitCheckoutState;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.tree.DefaultMutableTreeNode;

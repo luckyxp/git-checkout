@@ -1,13 +1,13 @@
-package com.xp.gitcheckout;
+package com.xp.plugin.gitcheckout;
 
 import com.intellij.openapi.actionSystem.*;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.SimpleToolWindowPanel;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.ui.components.JBScrollPane;
-import com.xp.gitcheckout.action.AddCommonBranchAction;
-import com.xp.gitcheckout.action.CleanLocalBranchAction;
-import com.xp.gitcheckout.action.RefreshCommonBranchAction;
+import com.xp.plugin.gitcheckout.action.AddCommonBranchAction;
+import com.xp.plugin.gitcheckout.action.CleanLocalBranchAction;
+import com.xp.plugin.gitcheckout.action.RefreshCommonBranchAction;
 import java.awt.*;
 
 public class GitCheckoutPanel extends SimpleToolWindowPanel {

@@ -1,4 +1,4 @@
-package com.xp.gitcheckout.settings;
+package com.xp.plugin.gitcheckout.settings;
 
 import java.util.ArrayList;
 import java.util.List;

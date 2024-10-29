@@ -1,4 +1,4 @@
-package com.xp.gitcheckout.settings;
+package com.xp.plugin.gitcheckout.settings;
 
 import com.intellij.openapi.components.PersistentStateComponent;
 import com.intellij.openapi.components.Service;

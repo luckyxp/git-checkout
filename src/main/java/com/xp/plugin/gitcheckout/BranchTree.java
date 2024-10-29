@@ -1,4 +1,4 @@
-package com.xp.gitcheckout;
+package com.xp.plugin.gitcheckout;
 
 import com.intellij.openapi.actionSystem.ActionManager;
 import com.intellij.openapi.actionSystem.ActionPlaces;
@@ -8,13 +8,13 @@ import com.intellij.openapi.project.Project;
 import com.intellij.ui.JBColor;
 import com.intellij.ui.treeStructure.Tree;
 import com.intellij.util.Alarm;
-import com.xp.gitcheckout.action.CheckoutAction;
-import com.xp.gitcheckout.action.DelCommonBranchAction;
-import com.xp.gitcheckout.action.EditBranchAction;
-import com.xp.gitcheckout.action.EditMultiBranchAction;
-import com.xp.gitcheckout.settings.Branch;
-import com.xp.gitcheckout.settings.GitCheckoutSettings;
-import com.xp.gitcheckout.settings.GitCheckoutState;
+import com.xp.plugin.gitcheckout.action.CheckoutAction;
+import com.xp.plugin.gitcheckout.action.DelCommonBranchAction;
+import com.xp.plugin.gitcheckout.action.EditBranchAction;
+import com.xp.plugin.gitcheckout.action.EditMultiBranchAction;
+import com.xp.plugin.gitcheckout.settings.Branch;
+import com.xp.plugin.gitcheckout.settings.GitCheckoutSettings;
+import com.xp.plugin.gitcheckout.settings.GitCheckoutState;
 
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;

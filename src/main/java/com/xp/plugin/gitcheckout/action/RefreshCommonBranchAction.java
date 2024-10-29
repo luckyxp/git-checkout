@@ -1,9 +1,9 @@
-package com.xp.gitcheckout.action;
+package com.xp.plugin.gitcheckout.action;
 
 import com.intellij.icons.AllIcons;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
-import com.xp.gitcheckout.BranchTree;
+import com.xp.plugin.gitcheckout.BranchTree;
 
 public class RefreshCommonBranchAction extends AnAction {
 

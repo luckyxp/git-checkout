@@ -1,8 +1,8 @@
-package com.xp.gitcheckout.dialog;
+package com.xp.plugin.gitcheckout.dialog;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
-import com.xp.gitcheckout.settings.Branch;
+import com.xp.plugin.gitcheckout.settings.Branch;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;

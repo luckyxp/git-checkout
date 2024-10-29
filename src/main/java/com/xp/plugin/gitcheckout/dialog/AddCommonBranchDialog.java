@@ -1,10 +1,10 @@
-package com.xp.gitcheckout.dialog;
+package com.xp.plugin.gitcheckout.dialog;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
-import com.xp.gitcheckout.settings.Branch;
-import com.xp.gitcheckout.settings.GitCheckoutSettings;
-import com.xp.gitcheckout.settings.GitCheckoutState;
+import com.xp.plugin.gitcheckout.settings.Branch;
+import com.xp.plugin.gitcheckout.settings.GitCheckoutSettings;
+import com.xp.plugin.gitcheckout.settings.GitCheckoutState;
 import git4idea.repo.GitRepository;
 import git4idea.repo.GitRepositoryManager;
 import org.jetbrains.annotations.Nullable;

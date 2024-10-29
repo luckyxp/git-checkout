@@ -1,9 +1,9 @@
-package com.xp.gitcheckout.dialog;
+package com.xp.plugin.gitcheckout.dialog;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.ComboBox;
 import com.intellij.openapi.ui.DialogWrapper;
-import com.xp.gitcheckout.settings.Branch;
+import com.xp.plugin.gitcheckout.settings.Branch;
 import git4idea.GitRemoteBranch;
 import git4idea.repo.GitRepository;
 import git4idea.repo.GitRepositoryManager;

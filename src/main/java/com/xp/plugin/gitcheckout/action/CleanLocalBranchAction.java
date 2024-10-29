@@ -1,4 +1,4 @@
-package com.xp.gitcheckout.action;
+package com.xp.plugin.gitcheckout.action;
 
 import com.intellij.icons.AllIcons;
 import com.intellij.openapi.actionSystem.AnAction;

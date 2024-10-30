@@ -5,6 +5,7 @@ import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
+import com.intellij.openapi.util.IconLoader;
 import git4idea.GitLocalBranch;
 import git4idea.branch.GitBrancher;
 import git4idea.repo.GitRepository;
@@ -18,11 +19,12 @@ import java.util.Collections;
 public class CleanLocalBranchAction extends AnAction {
     private final GitRepositoryManager git;
     private final GitBrancher gitBrancher;
+    private static final Icon icon = IconLoader.getIcon("clean.svg", CleanLocalBranchAction.class);
 
     private final Project project;
 
     public CleanLocalBranchAction(Project project) {
-        super("Clean Local Branch", "Clean local branch", AllIcons.Actions.GC);
+        super("Clean Local Branch", "Clean local branch", icon);
         this.project = project;
         git = GitRepositoryManager.getInstance(project);
         gitBrancher = GitBrancher.getInstance(project);
